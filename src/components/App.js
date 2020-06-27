@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import Form from "./Form";
 import Result from "./Result";
+import '../css/style.css';
 
 const APIKey = "d059e91765b924811618e9ea27174955"
 
@@ -22,12 +22,15 @@ class App extends Component {
 
   handleInputChange = (e) => {
     this.setState({
-      value: e.target.value
+      value: e.target.value,
     })
+    
   }
 
   handleCitySubmit = (e) => {
     e.preventDefault()
+    if(this.state.value === "")
+    return alert("Wpisz cos!!!")
     
     const API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${APIKey}&units=metric`
 
@@ -49,13 +52,15 @@ class App extends Component {
       temp: data.main.temp,
       wind: data.wind.speed,
       pressure: data.main.pressure,
-      city: this.state.value
+      city: this.state.value,
+      value: ""
       })
     })
     .catch(err => {
       this.setState({
         err: true,
-        city: this.state.value
+        city: this.state.value,
+        value: ""
       })
     })
 

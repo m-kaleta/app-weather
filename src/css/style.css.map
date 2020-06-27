@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/_variables.scss",
+        "../sass/_form.scss",
+        "../sass/_result.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
