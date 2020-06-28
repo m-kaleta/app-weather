@@ -1,10 +1,10 @@
 .form {
     display: flex;
-    width: 100%;
-    overflow: hidden;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
     margin: 20px 0 0 0;
+    overflow: hidden;
     @include mq(small) {
         width: 80%;
         margin: 20px auto 20px auto;
@@ -26,9 +26,6 @@
         width: 70%;
         @include form;
         @include mq(small) {
-            width: 60%;
-        }
-        @include mq(large) {
             width: 60%;
         }
         @include mq(large) {
