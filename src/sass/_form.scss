@@ -1,0 +1,56 @@
+.form {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0 0 0;
+    @include mq(small) {
+        width: 80%;
+        margin: 20px auto 20px auto;
+    }
+    @include mq(medium) {
+        width: 60%;
+    }
+    @include mq(large) {
+        width: 50%;
+    }
+    @include mq(xlarge) {
+        width: 40%;
+    }
+    @include mq(xxlarge) {
+        width: 30%;
+    }
+
+    &__input {
+        width: 70%;
+        @include form;
+        @include mq(small) {
+            width: 60%;
+        }
+        @include mq(large) {
+            width: 60%;
+        }
+        @include mq(large) {
+            width: 80%;
+            padding: 10px;
+        }
+        @include mq(xxlarge) {
+            width: 60%;
+        }
+    }
+    &__button {
+        width: 35%;
+        @include form;
+        @include mq(small) {
+            width: 30%;
+        }
+        @include mq(large) {
+            width: 30%;
+            padding: 10px;
+        }
+        @include mq(xxlarge) {
+            width: 30%;
+        }
+    }
+}

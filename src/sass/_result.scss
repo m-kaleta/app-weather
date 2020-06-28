@@ -1,0 +1,85 @@
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &__temp {
+        color: white;
+        margin: 25px;
+        text-transform: uppercase;
+        text-align: center;
+        @include mq(small) {
+            font-size: 25px;
+        }
+        @include mq(medium) {
+            width: 50%;
+        }
+        @include mq(large) {
+            width: 100%;
+            font-size: 35px;
+        }
+        @include mq(xlarge) {
+            font-size: 40px;
+        }
+    }
+    &__info {
+        color: white;
+        margin: 10px;
+        text-align: center;
+        @include mq(small) {
+            width: 60%;
+        }
+        @include mq(xlarge) {
+            font-size: 30px;
+        }
+    }
+    &__city {
+        color: white;
+        text-align: center;
+        margin: 20px 0 0 0;
+        @include mq(small) {
+            width: 60%;
+        }
+        @include mq(medium) {
+            width: 50%;
+            font-size: 40px;
+        }
+        @include mq(large) {
+            width: 100%;
+            font-size: 50px;
+        }
+        @include mq(xlarge) {
+            width: 80%;
+            font-size: 60px;
+        }
+
+    }
+    .dateinfo {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        &__date {
+            color: red;
+            text-align: center;
+        }
+        @include mq(xlarge) {
+            font-size: 20px;
+        }
+    }
+}
+
+span {
+    color: yellow;
+    text-transform: uppercase;
+}
+.result {
+    overflow: hidden;
+}
+
+.invalid {
+    width: 70%;
+    margin: 10px auto;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}

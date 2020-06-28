@@ -1,7 +1,7 @@
 $breakpoints: (
     xsmall: (min-width: 320px),
     small: (min-width: 560px),
-    medium: (min-width: 800px),
+    medium: (min-width: 736px),
     large: (min-width: 1024px),
     xlarge: (min-width: 1200px),
     xxlarge: (min-width: 1440px),
@@ -16,4 +16,21 @@ $breakpoints: (
     } @else {
         @error '"#{breakpoint}" - błąd';
     }
+}
+
+@mixin form {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+body {
+    min-height: 95vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/science_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

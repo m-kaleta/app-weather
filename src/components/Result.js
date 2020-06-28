@@ -12,15 +12,16 @@ const Result = (props) => {
     const sunsetTime = new Date(sunset * 1000).toLocaleTimeString()
 
     content = (
-    <div>
-    <h2>Pogoda dla Miasta: {city}</h2>
-    <h3>Data wyszukiwania: {data}</h3>
-    <h3>Temperatura: {temp} &#176;C</h3>
-    <h3>Wschód słońca: {sunriseTime}</h3>
-    <h3>Zachód słońca: {sunsetTime}</h3>
-    <h3>Predkość wiatru: {wind} km/h</h3>
-    <h3>Cisnienie: {pressure} hPa</h3>
-
+    <div className="content">
+        <h1 className="content__city">Pogoda dla Miasta: <span>{city}</span></h1>
+        <h2 className="content__temp">Temperatura: <span>{temp} &#176;C</span></h2>
+        <h2 className="content__info">Wschód słońca o: {sunriseTime}</h2>
+        <h2 className="content__info">Zachód słońca o: {sunsetTime}</h2>
+        <h2 className="content__info">Predkość wiatru: {wind} km/h</h2>
+        <h2 className="content__info">Cisnienie: {pressure} hPa</h2>
+            <div className="dateinfo">
+                <h4 className="dateinfo__date">Data wyszukiwania: {data}</h4>
+            </div>
     </div>
     )
 
@@ -28,7 +29,7 @@ const Result = (props) => {
 
     return (
         <div className="result">
-            {err ? `Nie znaleziono takiego Miasta "${city}"` : content}
+            {err ? <div className="invalid">Nie znaleziono takiego Miasta "<span>{city}</span>"</div> : content}
         </div>
     )
 }
