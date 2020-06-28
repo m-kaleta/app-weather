@@ -32,7 +32,7 @@ class App extends Component {
     if(this.state.value === "")
     return alert("Wpisz cos!!!")
     
-    const API = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${APIKey}&units=metric`;
+    const API = `//api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${APIKey}&units=metric`;
 
     fetch(API)
     .then(response => {
