@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/app-weather/static/css/main.8c6bb883.chunk.css",
-    "main.js": "/app-weather/static/js/main.e9031273.chunk.js",
-    "main.js.map": "/app-weather/static/js/main.e9031273.chunk.js.map",
-    "runtime-main.js": "/app-weather/static/js/runtime-main.3d596684.js",
-    "runtime-main.js.map": "/app-weather/static/js/runtime-main.3d596684.js.map",
-    "static/js/2.b5236c29.chunk.js": "/app-weather/static/js/2.b5236c29.chunk.js",
-    "static/js/2.b5236c29.chunk.js.map": "/app-weather/static/js/2.b5236c29.chunk.js.map",
-    "index.html": "/app-weather/index.html",
-    "precache-manifest.fd04ae994c641152c1bcb901472a27af.js": "/app-weather/precache-manifest.fd04ae994c641152c1bcb901472a27af.js",
-    "service-worker.js": "/app-weather/service-worker.js",
-    "static/css/main.8c6bb883.chunk.css.map": "/app-weather/static/css/main.8c6bb883.chunk.css.map",
-    "static/js/2.b5236c29.chunk.js.LICENSE.txt": "/app-weather/static/js/2.b5236c29.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/app-weather/static/media/science_1920.240c2422.jpg"
+    "main.css": "/app-weather-REACT/static/css/main.b1f34235.chunk.css",
+    "main.js": "/app-weather-REACT/static/js/main.e9031273.chunk.js",
+    "main.js.map": "/app-weather-REACT/static/js/main.e9031273.chunk.js.map",
+    "runtime-main.js": "/app-weather-REACT/static/js/runtime-main.5ef7eba3.js",
+    "runtime-main.js.map": "/app-weather-REACT/static/js/runtime-main.5ef7eba3.js.map",
+    "static/js/2.b5236c29.chunk.js": "/app-weather-REACT/static/js/2.b5236c29.chunk.js",
+    "static/js/2.b5236c29.chunk.js.map": "/app-weather-REACT/static/js/2.b5236c29.chunk.js.map",
+    "index.html": "/app-weather-REACT/index.html",
+    "precache-manifest.bbd749cc7c3c489292d2c96a2745447a.js": "/app-weather-REACT/precache-manifest.bbd749cc7c3c489292d2c96a2745447a.js",
+    "service-worker.js": "/app-weather-REACT/service-worker.js",
+    "static/css/main.b1f34235.chunk.css.map": "/app-weather-REACT/static/css/main.b1f34235.chunk.css.map",
+    "static/js/2.b5236c29.chunk.js.LICENSE.txt": "/app-weather-REACT/static/js/2.b5236c29.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/app-weather-REACT/static/media/science_1920.240c2422.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d596684.js",
+    "static/js/runtime-main.5ef7eba3.js",
     "static/js/2.b5236c29.chunk.js",
-    "static/css/main.8c6bb883.chunk.css",
+    "static/css/main.b1f34235.chunk.css",
     "static/js/main.e9031273.chunk.js"
   ]
 }
